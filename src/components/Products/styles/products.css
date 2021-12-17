@@ -1,0 +1,31 @@
+.products h1 {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.products ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.category-list ul {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 25px;
+}
+
+.category-item {
+  margin: 10px 0;
+}
+
+.checkbox {
+  margin: 0 10px;
+}
